@@ -1,0 +1,16 @@
+GET http://localhost:3001/todos
+
+###
+POST  http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"start learning for shell.ai"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6322cc483d8613a756a2cfac
+
+###
+PUT http://localhost:3001/todo/complete/6321ead92d1a9de44fb79447
