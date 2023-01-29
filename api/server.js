@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 
-//coneecting to database
+//connecting to database
 mongoose.connect("mongodb://127.0.0.1:27017/mern-todo",{
     useNewUrlParser: true,
     useUnifiedTopology: true
